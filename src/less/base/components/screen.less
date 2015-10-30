@@ -1,0 +1,119 @@
+.screen {
+  position: relative;
+	width: 100%;
+	height: 100%;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 60px;
+    line-height: 68px;
+  }
+
+  &__subtitle {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+    max-width: 535px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  &--one {
+    min-height: 737px;
+  }
+
+  &--two {
+    display: table;
+
+    .v-center {
+      min-height: 737px;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .screen {
+
+      &__title {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 50px;
+        line-height: 58px;
+      }
+
+      &__subtitle {
+        font-size: 22px;
+        line-height: 28px;
+      }
+    }
+  }
+}
+
+.screen-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: table;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-image: linear-gra;
+  z-index: 9;
+
+  .container {
+    text-align: center;
+  }
+
+  &__form-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    text-align: center;
+    font-size: 0;
+
+    input[type="text"] {
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 20px;
+      background-color: rgba(255,255,255,.4);
+
+      &:nth-child(2) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  &:before {
+    content: '\e801';
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: @icon;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+  }
+
+  &:hover {
+
+    &:before {
+      color: @green-l;
+      opacity: .8;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <title>Greenaer</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body сlass="main-page">
+  <header class="page-header">
+    <a href="http://greenaer.ie" class="logo">
+      <img src="img/greenaer-2010-logo-small.png" alt="" class="logo__image">
+    </a>
+  </header>
+  <section class="screen screen--one">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide--one"></div>
+        <div class="swiper-slide swiper-slide--two"></div>
+        <div class="swiper-slide swiper-slide--three"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+      <div class="screen-content">
+        <div class="v-center">
+          <div class="container">
+            <h1 class="screen__title">Book a test drive!</h1>
+            <!-- <div class="screen__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div> -->
+            <!-- <div class="screen-content__btns-wrapper">
+            <a href="#" class="btn">Book a testdrive</a>
+            <a href="#" class="btn">Watch our video</a>
+          </div> -->
+          <div class="screen-content__form-wrapper">
+            <form action="#" method="post">
+              <input type="text" id="username" placeholder="Your name">
+              <input type="text" id="email" placeholder="Your email">
+              <button type="submit" class="btn btn--submit">Submit</button>
+            </form>
+          </div>
+          <a href="#screen2" class="scroll-down"></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="screen screen--two" id="screen2">
+    <div class="v-center">
+      <div class="container">
+        <h2 class="screen__title">Yet another headline here</h2>
+        <div class="screen__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</div>
+        <div class="features">
+          <div class="feature feature--one">
+            <div class="feature__title">Lorem Ipsum</div>
+            <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+          <div class="feature feature--two">
+            <div class="feature__title">Lorem Ipsum</div>
+            <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+          <div class="feature feature--three">
+            <div class="feature__title">Lorem Ipsum</div>
+            <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer">
+  </footer>
+
+
+  <script src="js/vendors/jquery.js"></script>
+  <script src="js/vendors/swiper.jquery.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        /*nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',*/
+        keyboardControl: true,
+        lazyLoading: true,
+        autoplay: 3000,
+      })
+    });
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

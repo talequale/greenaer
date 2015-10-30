@@ -1,0 +1,59 @@
+.features {
+  font-size: 0;
+}
+
+.feature {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2.6%;
+  margin-right: 2.6%;
+  padding-top: 80px;
+  width: 28%;
+
+  &__title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-family: @icon;
+    font-size: 40px;
+    line-height: 60px;
+    color: @green;
+  }
+
+  &--one {
+
+    &:before {
+      content: '\e803';
+    }
+  }
+
+  &--two {
+
+    &:before {
+      content: '\e804';
+    }
+  }
+
+  &--three {
+
+    &:before {
+      content: '\e805';
+    }
+  }
+}
