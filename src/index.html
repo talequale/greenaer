@@ -13,7 +13,7 @@
       <img src="img/greenaer-2010-logo-small.png" alt="" class="logo__image">
     </a>
   </header>
-  <section class="screen screen--one">
+  <section class="screen screen--one" id="screen1">
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide swiper-slide--one"></div>
@@ -27,11 +27,7 @@
         <div class="v-center">
           <div class="container">
             <h1 class="screen__title">Book a test drive!</h1>
-            <!-- <div class="screen__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div> -->
-            <!-- <div class="screen-content__btns-wrapper">
-            <a href="#" class="btn">Book a testdrive</a>
-            <a href="#" class="btn">Watch our video</a>
-          </div> -->
+            <div class="screen__subtitle">Get details on your email</div>
           <div class="screen-content__form-wrapper">
             <form action="#" method="post">
               <input type="text" id="username" placeholder="Your name">
@@ -64,7 +60,50 @@
             <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
           </div>
         </div>
+        <div class="mentions">
+          <h3 class="mentions__title">Find Greenaer mentioned in:</h3>
+          <ul class="mentions__list">
+            <li class="mentions__list-item">
+              <a href="http://www.herald.ie/lifestyle/why-would-you-ride-an-electric-bike-28965083.html" target="_blank" class="mentions__link">
+                <img src="img/logo-herald.png" alt="" class="mentions__image">
+              </a>
+            </li>
+            <li class="mentions__list-item">
+              <a href="http://www.irishtimes.com/culture/heritage/into-the-west-on-enchanted-horsepower-1.1987809" target="_blank" class="mentions__link">
+                <img src="img/IrishTimes.png" alt="" class="mentions__image">
+              </a>
+            </li>
+            <li class="mentions__list-item">
+              <a href="http://www.newstalk.com/podcasts/The_Pat_Kenny_Show/The_Pat_Kenny_Show_Highlights/98284/" target="_blank" class="mentions__link">
+                <img src="img/news-talk.png" alt="" class="mentions__image">
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+      <a href="#screen3" class="scroll-down"></a>
+    </div>
+  </section>
+  <section class="screen screen--three" id="screen3">
+    <div class="v-center">
+      <div class="container">
+        <div class="screen-content">
+          <h2 class="screen__title">Book a test drive</h2>
+          <div class="screen-content__form-wrapper">
+            <form action="#" method="post">
+              <input type="text" id="username2" placeholder="Your name">
+              <input type="text" id="email2" placeholder="Your email">
+              <button type="submit" class="btn btn--bordered">Get details</button>
+            </form>
+          </div>
+          <div class="social-container">
+            <a href="https://www.facebook.com/greenaer.ltd/?fref=ts" target="_blank" class="social-btn social-btn--fb">Facebook</a>
+            <a href="https://twitter.com/Greenaer" target="_blank" class="social-btn social-btn--tw">Twitter</a>
+            <a href="https://plus.google.com/+Greenaer-ie/about" target="_blank" class="social-btn social-btn--gp">Google+</a>
+          </div>
+        </div>
+      </div>
+      <a href="#screen1" class="scroll-up"></a>
     </div>
   </section>
   <footer class="page-footer">
@@ -85,7 +124,7 @@
         prevButton: '.swiper-button-prev',*/
         keyboardControl: true,
         lazyLoading: true,
-        autoplay: 3000,
+        autoplay: 6000,
       })
     });
   </script>
