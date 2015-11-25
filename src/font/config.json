@@ -7,27 +7,33 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "d73eceadda1f594cec0536087539afbf",
-      "css": "heart",
-      "code": 59394,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
-      "css": "heart-empty",
-      "code": 59395,
-      "src": "fontawesome"
-    },
-    {
       "uid": "891d861cffd152a6474f01e77716d44e",
       "css": "bicycle",
       "code": 59397,
       "src": "fontawesome"
     },
     {
-      "uid": "0bda4bc779d4c32623dec2e43bd67ee8",
-      "css": "gauge",
+      "uid": "486b835e9eebf54eee78ed12b4291b86",
+      "css": "euro",
+      "code": 59400,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b8d0c7d76e87b94882329a88e8e43d3d",
+      "css": "gplus",
       "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 59394,
       "src": "fontawesome"
     },
     {
@@ -37,10 +43,22 @@
       "src": "entypo"
     },
     {
-      "uid": "616b755d0f4c7d2dc7a1dcc2e5427039",
-      "css": "down-open",
+      "uid": "0805cca616b3c12714f35af4d0912c10",
+      "css": "up-open-big",
       "code": 59392,
-      "src": "elusive"
+      "src": "entypo"
+    },
+    {
+      "uid": "0ohst63cgq1mf1syayvfl8mphms8dbes",
+      "css": "clock",
+      "code": 59398,
+      "src": "modernpics"
+    },
+    {
+      "uid": "d58dc0a0927a7dea2992f615f2fbf400",
+      "css": "wallet",
+      "code": 59399,
+      "src": "linecons"
     }
   ]
 }
