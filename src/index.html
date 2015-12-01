@@ -2,14 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
   <title>Greenaer</title>
   <link rel="stylesheet" href="css/style.min.css">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-2668415-1', 'auto');
+
+    ga('send', 'pageview');
+
+    ga(function(tracker) { var clientId = tracker.get('clientId'); });
+
+  </script>
 </head>
 <body сlass="main-page">
   <header class="page-header">
-    <a href="http://greenaer.ie" class="logo">
+    <a href="http://www.greenaer.ie/product-category/electric-bikes/" class="logo">
       <img src="img/greenaer-2010-logo-small.png" alt="" class="logo__image">
     </a>
   </header>
@@ -21,18 +34,20 @@
         <div class="swiper-slide swiper-slide--three"></div>
       </div>
       <div class="swiper-pagination"></div>
-      <!-- <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div> -->
       <div class="screen-content">
         <div class="v-center">
           <div class="container">
-            <h1 class="screen__title">Transform your commute with an electric bike!</h1>
-            <div class="screen__subtitle">Reconsider the expense of your current commute on your time, wallet and health</div>
+            <h1 class="screen__title">Transform your commute with an electric bike</h1>
+            <div class="screen__subtitle">Reconsider the current expense of your commute on time, wallet and health. <span class="bold">Book a free test ride!</span></div>
           <div class="screen-content__form-wrapper">
-            <form action="#" method="post">
-              <input type="text" id="username" placeholder="Your name">
-              <input type="text" id="email" placeholder="Your email">
-              <button type="submit" class="btn btn--submit">Get details</button>
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thank-you.html';}"></iframe>
+            <form action="https://docs.google.com/forms/d/1Ajv3vCGYI_eav7maE_so4WLgqmNSFQwk9Jo_-iuJp84/formResponse" method="post" id="RegisterUserForm" target="hidden_iframe" onsubmit="submitted=true;">
+              <input type="text" placeholder="Your name" name="entry_1042368635" value="" id="entry_1042368635" dir="auto" aria-label="Name  " title="" required>
+              <input type="email" name="entry.2123178369" value="" id="entry_2123178369" placeholder="Your email" required>
+              <input type="hidden"  name="entry.1535383479" value="" id="entry_1535383479" dir="auto" aria-label="CID  " title="">
+              <input type="hidden" name="entry.1303173719" id="entry_1303173719" aria-label="gclid  " value="">
+              <button type="submit" class="btn btn--submit" id="ButtonSubmit" onclick="postContactToGoogle()">Get details</button>
             </form>
           </div>
           <a href="#screen2" class="scroll-down"></a>
@@ -53,7 +68,7 @@
           </div>
           <div class="feature feature--two">
             <div class="feature__title">Save money</div>
-            <p class="feature__description">No more insurance, fuel or parking fees! Electric bikes are also covered under the Cycle to Work Scheme.</p>
+            <p class="feature__description">No more insurance, fuel or parking fees! Electric bikes are also covered under the Cycle to Work Scheme (save up to <span class="bold">510 euro</span>).</p>
           </div>
           <div class="feature feature--three">
             <div class="feature__title">Healthy Lifestyle</div>
@@ -64,18 +79,18 @@
           <h3 class="mentions__title">Find <a href="http://greenaer.ie" class="greenaer-logo"><img src="img/greenaer-2010-logo-small.png" alt=""></a> mentioned in:</h3>
           <ul class="mentions__list">
             <li class="mentions__list-item">
-              <a href="http://www.herald.ie/lifestyle/why-would-you-ride-an-electric-bike-28965083.html" target="_blank" class="mentions__link">
-                <img src="img/logo-herald.png" alt="" class="mentions__image">
+              <a href="https://www.youtube.com/watch?v=cA-e0v1Ft5E" target="_blank" class="mentions__link">
+                <img src="img/rte.jpg" alt="" class="mentions__image">
+              </a>
+            </li>
+            <li class="mentions__list-item">
+              <a href="http://www.newstalk.com/podcasts/The_Pat_Kenny_Show/The_Pat_Kenny_Show_Highlights/98284/" target="_blank" class="mentions__link">
+                <img src="img/news-talk.jpg" alt="" class="mentions__image">
               </a>
             </li>
             <li class="mentions__list-item">
               <a href="http://www.irishtimes.com/culture/heritage/into-the-west-on-enchanted-horsepower-1.1987809" target="_blank" class="mentions__link">
                 <img src="img/IrishTimes.png" alt="" class="mentions__image">
-              </a>
-            </li>
-            <li class="mentions__list-item">
-              <a href="http://www.newstalk.com/podcasts/The_Pat_Kenny_Show/The_Pat_Kenny_Show_Highlights/98284/" target="_blank" class="mentions__link">
-                <img src="img/news-talk.png" alt="" class="mentions__image">
               </a>
             </li>
           </ul>
@@ -88,12 +103,14 @@
     <div class="v-center">
       <div class="container">
         <div class="screen-content">
-          <h2 class="screen__title">Book a test drive</h2>
+          <h2 class="screen__title">Book a free test ride</h2>
           <div class="screen-content__form-wrapper">
-            <form action="#" method="post">
-              <input type="text" id="username2" placeholder="Your name">
-              <input type="text" id="email2" placeholder="Your email">
-              <button type="submit" class="btn btn--bordered">Get details</button>
+            <script type="text/javascript">var submitted=false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thank-you.html';}"></iframe>
+            <form action="https://docs.google.com/forms/d/1Ajv3vCGYI_eav7maE_so4WLgqmNSFQwk9Jo_-iuJp84/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+              <input type="text"  name="entry.1136781430" value="" id="entry_1136781430" dir="auto" aria-label="Name2  " title="" placeholder="Your name" required>
+              <input type="email" name="entry_254223033" value="" id="entry_254223033" dir="auto" aria-label="Email2  " title="" placeholder="Your email" required>
+              <button type="submit" class="btn btn--bordered" id="ButtonSubmit1" onclick="postContactToGoogle2()">Get details</button>
             </form>
           </div>
           <div class="social-container">
@@ -114,20 +131,6 @@
   <script src="js/vendors/swiper.jquery.min.js"></script>
   <script src="js/script.js"></script>
 
-  <script>
-    $(document).ready(function () {
-      var mySwiper = new Swiper ('.swiper-container', {
-        loop: true,
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        /*nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',*/
-        keyboardControl: true,
-        lazyLoading: true,
-        autoplay: 6000,
-      })
-    });
-  </script>
 
 </body>
 </html>
