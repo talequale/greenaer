@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +23,7 @@
 </head>
 <body сlass="main-page">
   <header class="page-header">
-    <a href="http://www.greenaer.ie/product-category/electric-bikes/" class="logo logo--christmas">
+    <a href="http://www.greenaer.ie/product-category/electric-bikes/" class="logo" onclick="ga('send', 'event', 'Client', 'Logo', 'Clicked');">
       <img src="img/greenaer-2010-logo-small.png" alt="" class="logo__image">
     </a>
   </header>
@@ -38,7 +39,7 @@
         <div class="v-center">
           <div class="container">
             <h1 class="screen__title">Transform your commute with an electric bike</h1>
-            <div class="screen__subtitle">Reconsider the current expense of your commute on time, wallet and health. <span class="bold">Book a free test ride!</span></div>
+            <div class="screen__subtitle">Reconsider the current expense of your commute on time, wallet and health. <span class="bold">Book a free trial!</span></div>
           <div class="screen-content__form-wrapper">
             <script type="text/javascript">var submitted=false;</script>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thank-you.html';}"></iframe>
@@ -47,7 +48,7 @@
               <input type="email" name="entry.2123178369" value="" id="entry_2123178369" placeholder="Your email" required>
               <input type="hidden"  name="entry.1535383479" value="" id="entry_1535383479" dir="auto" aria-label="CID  " title="">
               <input type="hidden" name="entry.1303173719" id="entry_1303173719" aria-label="gclid  " value="">
-              <button type="submit" class="btn btn--submit" id="ButtonSubmit" onclick="postContactToGoogle()">Get details</button>
+              <button type="submit" class="btn btn--submit" id="ButtonSubmit" onclick="postContactToGoogle(); ga('send', 'event', 'Client', 'Button', 'Clicked');">Get details</button>
             </form>
           </div>
           <a href="#screen2" class="scroll-down"></a>
@@ -76,10 +77,10 @@
           </div>
         </div>
         <div class="mentions">
-          <h3 class="mentions__title">Find <a href="http://greenaer.ie" class="greenaer-logo"><img src="img/greenaer-2010-logo-small.png" alt=""></a> mentioned in:</h3>
+          <h3 class="mentions__title">Find <a href="http://greenaer.ie" class="greenaer-logo"><img src="img/greenaer-2010-logo-small.png" alt="" onclick="ga('send', 'event', 'Lead', 'Logo', 'Clicked');"></a> mentioned in:</h3>
           <ul class="mentions__list">
             <li class="mentions__list-item">
-              <a href="https://www.youtube.com/watch?v=cA-e0v1Ft5E" target="_blank" class="mentions__link">
+              <a href="https://www.youtube.com/watch?v=Sxg5vGeXoWI" target="_blank" class="mentions__link">
                 <img src="img/rte.jpg" alt="" class="mentions__image">
               </a>
             </li>
@@ -103,14 +104,14 @@
     <div class="v-center">
       <div class="container">
         <div class="screen-content">
-          <h2 class="screen__title">Book a free test ride</h2>
+          <h2 class="screen__title">Book a free trial</h2>
           <div class="screen-content__form-wrapper">
             <script type="text/javascript">var submitted=false;</script>
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thank-you.html';}"></iframe>
             <form action="https://docs.google.com/forms/d/1Ajv3vCGYI_eav7maE_so4WLgqmNSFQwk9Jo_-iuJp84/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
               <input type="text"  name="entry.1136781430" value="" id="entry_1136781430" dir="auto" aria-label="Name2  " title="" placeholder="Your name" required>
               <input type="email" name="entry_254223033" value="" id="entry_254223033" dir="auto" aria-label="Email2  " title="" placeholder="Your email" required>
-              <button type="submit" class="btn btn--bordered" id="ButtonSubmit1" onclick="postContactToGoogle2()">Get details</button>
+              <button type="submit" class="btn btn--bordered" id="ButtonSubmit1" onclick="postContactToGoogle2(); ga('send', 'event', 'Client', 'Button', 'Clicked');">Get details</button>
             </form>
           </div>
           <div class="social-container">
@@ -126,6 +127,13 @@
   <footer class="page-footer">
   </footer>
 
+  <div class="cookies-warning">
+    <div class="container">
+      <div class="cookies-warning__text">By using Greenaer.ie, you agree to our <a href="cookies.html">use of cookies</a> to enhance your experience.</div>
+      <div class="cookies-warning__close-btn"></div>
+    </div>
+  </div>
+
 
   <script src="js/vendors/jquery.js"></script>
   <script src="js/vendors/swiper.jquery.min.js"></script>
@@ -134,7 +142,6 @@
 
 </body>
 </html>
-
 
 
 

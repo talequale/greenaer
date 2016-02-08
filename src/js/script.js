@@ -1,5 +1,9 @@
 $(function() {
 
+  $('.cookies-warning__close-btn').on('click', function() {
+    $('.cookies-warning').fadeOut();
+  })
+
   $(document).ready(function(){
     $("a[href*=#]").bind("click", function(e){
       var anchor = $(this);
